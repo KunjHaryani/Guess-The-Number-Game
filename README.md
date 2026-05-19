@@ -7,7 +7,6 @@ A simple multiplayer number guessing game developed in C language using function
 - Random number generation
 - Score tracking
 - User-friendly console interface
-- Replay option
 
 ## Technologies Used
 - C Language
@@ -16,12 +15,13 @@ A simple multiplayer number guessing game developed in C language using function
 - time.h
 
 ## How the Game Works
-1. The program generates a random number.
-2. Players take turns guessing the number.
-3. The program gives hints like:
-   - Too High
-   - Too Low
-4. The player who guesses correctly wins the round.
+1. The program generates two random numbers.
+2. Players take turns playing the game.
+3. Player 2 has to take less turns for guessing their number.
+4. The program gives hints like:
+   - Correct Number is Too High
+   - Correct Number is Too Low
+5. The player who guesses correctly in less turns wins the round.
 
 ## Concepts Used
 - Functions
