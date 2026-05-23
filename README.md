@@ -29,4 +29,4 @@ A simple multiplayer number guessing game developed in C language using function
 - Conditional Statements
 - Random Numbers using `rand()`
 - `srand(time(0))`
-- Variables and Arrays
+- Variables
