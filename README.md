@@ -17,7 +17,7 @@ A simple multiplayer number guessing game developed in C language using function
 ## How the Game Works
 1. The program generates two random numbers.
 2. Players take turns playing the game.
-3. Player 2 has to take less turns for guessing their number.
+3. Each player tries to guess their number in minimum possible turns.
 4. The program gives hints like:
    - Correct Number is Too High
    - Correct Number is Too Low
